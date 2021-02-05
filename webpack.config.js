@@ -16,6 +16,9 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
   },
+  optimization: {
+    minimize: true,
+  },
 
   plugins: [
     new webpack.DefinePlugin({
